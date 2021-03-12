@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartView"
+    android:background="@drawable/backgroundtestapp3">
+
+    <TextView
+        android:id="@+id/textViewTotalPrice"
+        android:layout_width="254dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="16dp"
+        android:background="#C1FFFFFF"
+        android:gravity="center"
+        android:text="@string/tap_the_items_to_remove_them_n_from_the_cart_n_total_price"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/checkoutButtonCartView"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/checkout"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTotalPrice"/>
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="629dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkoutButtonCartView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <Button
+            android:id="@+id/cartButton0"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/cartButton1"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartButton0" />
+
+        <Button
+            android:id="@+id/cartButton2"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartButton1" />
+
+        <Button
+            android:id="@+id/cartButton3"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartButton2" />
+
+        <Button
+            android:id="@+id/cartButton4"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartButton3" />
+
+        <Button
+            android:id="@+id/cartButton5"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartButton4" />
+
+        <Button
+            android:id="@+id/cartButton6"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartButton5" />
+
+        <Button
+            android:id="@+id/cartButton7"
+            android:layout_width="254dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartButton6" />
+
+            <Button
+                android:id="@+id/cartButton8"
+                android:layout_width="254dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="Button"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton7" />
+
+            <Button
+                android:id="@+id/cartButton9"
+                android:layout_width="254dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="Button"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton8" />
+
+            <Button
+                android:id="@+id/cartButton10"
+                android:layout_width="254dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="Button"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton9" />
+
+            <Button
+                android:id="@+id/cartButton11"
+                android:layout_width="254dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="Button"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton10" />
+
+            <Button
+                android:id="@+id/cartButton12"
+                android:layout_width="254dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="Button"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton11" />
+
+            <Button
+                android:id="@+id/cartButton13"
+                android:layout_width="254dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="Button"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton12" />
+
+            <Button
+                android:id="@+id/cartButton14"
+                android:layout_width="254dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="Button"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cartButton13" />
+    </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

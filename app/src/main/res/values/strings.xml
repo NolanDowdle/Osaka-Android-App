@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Osaka_App</string>
+    <string name="starters_sides">Starters / Sides</string>
+    <string name="checkout">Checkout</string>
+    <string name="gluten_free_low_glycemic">Gluten Free / Low Glycemic</string>
+    <string name="specials">Specials</string>
+    <string name="lo_mein_fried_rice">Lo Mein / Fried Rice</string>
+    <string name="sushi">Sushi</string>
+    <string name="dinner">Dinner</string>
+    <string name="lunch">Lunch</string>
+    <string name="hibachi_amp_teriyaki"><![CDATA[Hibachi & Teriyaki]]></string>
+    <string name="lo_mein_amp_fried_rice"><![CDATA[Lo mein & Fried Rice]]></string>
+    <string name="chef_specialty">Chef Specialty</string>
+    <string name="chinese">Chinese</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_checkout_cart">CheckoutCart</string>
+    <string name="tap_the_items_to_remove_them_n_from_the_cart_n_total_price">Tap the items to remove them  from the cart!  Total Price: $</string>
+    <string name="please_fill_in_the_following_before_sending_the_order">Please fill in the following before sending the order</string>
+    <string name="send_order">Send Order</string>
+    <string name="name">Name:</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SushiActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <Button
+        android:id="@+id/buttonNigiriSushi"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_button"
+        android:text="Nigiri Sushi"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBigSpecialRollsSushi"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_button"
+        android:text="Big Special Rolls (8pc)"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonNigiriSushi" />
+
+    <Button
+        android:id="@+id/buttonSushiDinnerCombo"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_button"
+        android:text="Sushi Dinner Combinations"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBigSpecialRollsSushi" />
+
+    <Button
+        android:id="@+id/buttonRegularSushiRolls"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_button"
+        android:text="Regular Sushi Rolls (8pc)"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSushiDinnerCombo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

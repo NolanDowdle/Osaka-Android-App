@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GlutenFreeActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonChickenChowMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken Chow Mein \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpChowMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp Chow Mein \n $11.95" />
+
+        <Button
+            android:id="@+id/buttonTripleGreenShrimp"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Triple Green Shrimp \n $11.95" />
+
+        <Button
+            android:id="@+id/buttonMixedGardenVegetables"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Mixed Garden Vegetables \n $8.25" />
+
+        <Button
+            android:id="@+id/buttonChickenWithVegetable"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken w. Vegetable \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpWithVegetable"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp w. Vegetable \n $11.95" />
+
+    </LinearLayout>
+
+</ScrollView>

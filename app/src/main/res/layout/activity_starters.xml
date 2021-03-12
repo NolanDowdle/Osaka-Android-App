@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartersActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/buttonEggRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Egg Roll w. Pork \n $1.75" />
+
+        <Button
+            android:id="@+id/buttonVegetableSpringRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Vegetable Spring Roll \n $1.75" />
+
+        <Button
+            android:id="@+id/buttonShrimpSpringRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp Spring Roll \n $1.75" />
+
+        <Button
+            android:id="@+id/buttonThaiSpringRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Thai Spring Roll \n $1.75" />
+
+        <Button
+            android:id="@+id/buttonSpicyCrispyCrabSticks"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Spicy Crispy Crab Sticks (4) \n $4.95" />
+
+        <Button
+            android:id="@+id/buttonGyoza"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Gyoza (6) \n $4.95" />
+
+        <Button
+            android:id="@+id/buttonCrabRangoon"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Crab Rangoon (6) \n $4.50" />
+
+        <Button
+            android:id="@+id/buttonEdamame"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Edamame \n $4.50" />
+
+        <Button
+            android:id="@+id/buttonChickenLettuceWrap"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken Lettuce Wrap (2) \n $7.95" />
+
+        <Button
+            android:id="@+id/buttonSeafoodLettuceWrap"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Seafood Lettuce Wrap (2) \n $8.95" />
+
+        <Button
+            android:id="@+id/buttonSteamedDumplings"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Steamed Dumplings (6) \n $4.95" />
+
+        <Button
+            android:id="@+id/buttonChickenWings"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken Wings \n $4.95" />
+
+        <Button
+            android:id="@+id/buttonBuffaloWings"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Buffalo Wings \n $5.45" />
+
+        <Button
+            android:id="@+id/buttonFriedSoftShellCrab"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Fried Soft Shell Crab (2) \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonChickenOnAStick"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken on a Stick (2) \n $3.25" />
+
+    </LinearLayout>
+
+</ScrollView>

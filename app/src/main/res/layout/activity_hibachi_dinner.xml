@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HibachiDinnerActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonHibachiVegetableDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Vegetable\n $9.95" />
+
+        <Button
+            android:id="@+id/buttonHibachiTofuDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Tofu\n $9.95" />
+
+        <Button
+            android:id="@+id/buttonTeriyakiChickenDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Teriyaki Chicken (With Vegetables) \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonHibachiChickenDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Chicken (W. Mushrooms)\n $10.95" />
+
+        <Button
+            android:id="@+id/buttonHibachiYakiDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Yaki (Sliced Beef)\n $13.50" />
+
+        <Button
+            android:id="@+id/buttonHibachiShrimpDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Shrimp\n $12.95" />
+
+        <Button
+            android:id="@+id/buttonHibachiScallopDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Ocean Scallop\n $15.95" />
+
+        <Button
+            android:id="@+id/buttonHibachiSteakDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Steak (W. Mushroom)\n $13.50" />
+
+        <Button
+            android:id="@+id/buttonTeriyakiSteakDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Teriyaki Steak (W. Vegetables)\n $13.50" />
+
+        <Button
+            android:id="@+id/buttonHibachiChickenShrimpDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Chicken &amp; Shrimp\n $15.25" />
+
+        <Button
+            android:id="@+id/buttonHibachiChickenSteakDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Chicken &amp; Steak\n $15.25" />
+
+        <Button
+            android:id="@+id/buttonHibachiChickenYakiDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Chicken &amp; Yaki\n $15.25" />
+
+        <Button
+            android:id="@+id/buttonHibachiSteakShrimpDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Steak &amp; Shrimp\n $17.50" />
+
+        <Button
+            android:id="@+id/buttonHibachiChickenScallopDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Chicken &amp; Scallop\n $16.95" />
+
+        <Button
+            android:id="@+id/buttonHibachiSteakScallopDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Steak &amp; Scallop\n $17.25" />
+
+        <Button
+            android:id="@+id/buttonHibachiShrimpScallopDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Shrimp &amp; Scallop\n $17.25" />
+
+        <Button
+            android:id="@+id/buttonHibachiYakiShrimpDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Yaki &amp; Shrimp\n $16.95" />
+
+        <Button
+            android:id="@+id/buttonHibachiChickenSteakShrimpDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hibachi Chicken, Steak &amp; Shrimp\n $19.95" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChineseLunchActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonMixedGardenVegetablesLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Mixed Garden Vegetables \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonTofuWithGarlicSauceLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Tofu w. Garlic Sauce \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonVegetableLoMeinLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Vegetable Lo Mein \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonChickenLoMeinLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken Lo Mein \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonGeneralTsoTofuLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="General Tso's Tofu \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonBroccoliGarlicSauceLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Broccoli w. Garlic Sauce \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonSweetSourChickenLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Sweet &amp; Sour Chicken \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonHoneyChickenLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Honey Chicken \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonMooGooGaiPanLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Moo Goo Gai Pan \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonChickenBroccoliLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken w. Broccoli \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonRoastPorkBroccoliLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Roast Pork w. Broccoli \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpLoMeinLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp Lo Mein \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonBeefLomeinLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Beef Lo Mein \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonRoastPorkLoMeinLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Roast Pork Lo Mein \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonKungPaoChickenLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Kung Pao Chicken \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonChickenGarlicSauceLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken w. Garlic Sauce \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonChickenCashewNutLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken w. Cashew Nuts \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonChickenVegetablesLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken w. Mixed Vegetables \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonSesameChickenLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Sesame Chicken \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonGeneralTsoChickenLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="General Tso's Chicken \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonHunanChickenLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hunan Chicken \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonRoastPorkMixedVegetablesLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Roast Pork w. Mixed Vegetables \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonRoastPorkGarlicSauceLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Roast Pork w. Garlic Sauce \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonBeefBroccoliLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Beef w. Broccoli \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonBeefGarlicSauceLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Beef w. Garlic Sauce \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonPepperSteakOnionLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Pepper Steak w. Onion \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonHunanBeefLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hunan Beef \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonHunanShrimpLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hunan Shrimp \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonBeefMixedVegetablesLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Beef w. Mixed Vegetables \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonMongolianBeefLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Mongolian Beef \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpBroccoliLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp w. Broccoli \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpGarlicSauceLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp w. Garlic Sauce \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonTripleGreenShrimpLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Triple Green Shrimp \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpCashewNutsLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp w. Cashew Nuts \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonKungPaoShrimpLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Kung Pao Shrimp \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpLobsterSauceLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp w. Lobster Sauce \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonDoubleDelightLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Double Delight \n $7.95" />
+
+        <Button
+            android:id="@+id/buttonBroccoliTripleDelightLunch"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Broccoli Triple delight \n $8.75" />
+
+    </LinearLayout>
+
+</ScrollView>

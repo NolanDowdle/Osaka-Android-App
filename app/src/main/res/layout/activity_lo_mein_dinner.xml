@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoMeinDinnerActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonVegetableLoMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Vegetable Lo Mein \n $7.50" />
+
+        <Button
+            android:id="@+id/buttonChickenLoMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken Lo Mein \n $7.95" />
+
+        <Button
+            android:id="@+id/buttonRoastPorkLoMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Roast Pork Lo Mein \n $7.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpLoMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp Lo Mein \n $8.75" />
+
+        <Button
+            android:id="@+id/buttonBeefLoMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Beef Lo Mein \n $8.75" />
+
+        <Button
+            android:id="@+id/buttonHouseSpecialLoMein"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="House Special Lo Mein \n $10.50" />
+
+        <Button
+            android:id="@+id/buttonVegetableFriedRice"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Vegetable Fried Rice \n $6.95" />
+
+        <Button
+            android:id="@+id/buttonChickenFriedRice"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken Fried Rice \n $7.50" />
+
+        <Button
+            android:id="@+id/buttonRoastPorkFriedRice"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Roast Pork Fried Rice \n $7.50" />
+
+        <Button
+            android:id="@+id/buttonShrimpFriedRice"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp Fried Rice \n $8.50" />
+
+        <Button
+            android:id="@+id/buttonBeefFriedRice"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Beef Fried Rice \n $8.50" />
+
+        <Button
+            android:id="@+id/buttonHouseSpecialFriedRice"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="House Special Fried Rice \n $9.95" />
+
+    </LinearLayout>
+
+</ScrollView>

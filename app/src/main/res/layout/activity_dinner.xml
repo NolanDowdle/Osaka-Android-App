@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinnerActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <Button
+        android:id="@+id/hibachiDinnerButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/hibachi_amp_teriyaki"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chineseDinnerButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/chinese"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hibachiDinnerButton" />
+
+    <Button
+        android:id="@+id/chefSpecialDinnerButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/chef_specialty"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chineseDinnerButton" />
+
+    <Button
+        android:id="@+id/loMeinDinnerButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/lo_mein_amp_fried_rice"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chefSpecialDinnerButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

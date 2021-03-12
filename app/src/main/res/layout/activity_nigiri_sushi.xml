@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NigiriSushi"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonCrabstickNigiri"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Crabstick Nigiri \n $1.95" />
+
+        <Button
+            android:id="@+id/buttonSalmonNigiri"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Salmon Nigiri \n $1.95" />
+
+        <Button
+            android:id="@+id/buttonTunaNigiri"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Tuna Nigiri \n $1.95" />
+
+        <Button
+            android:id="@+id/buttonShrimpNigiri"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp Nigiri \n $1.95" />
+
+        <Button
+            android:id="@+id/buttonEelNigiri"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Eel Nigiri \n $1.95" />
+
+        <Button
+            android:id="@+id/buttonMasagoNigiri"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Masago Nigiri \n $1.95" />
+
+        <Button
+            android:id="@+id/buttonYellowtailNigiri"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Yellowtail Nigiri \n $1.95" />
+
+    </LinearLayout>
+
+</ScrollView>

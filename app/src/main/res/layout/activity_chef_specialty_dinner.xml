@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChefSpecialtyDinnerActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonSesameChickenDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Sesame Chicken \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonGeneralTsoChickenDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="General Tso's Chicken \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonOrangeChickenDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Orange Chicken \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonChickenShrimpSupremeDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Chicken &amp; Shrimp Supreme \n $12.95" />
+
+        <Button
+            android:id="@+id/buttonTripleDelightDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Triple Delight \n $13.95" />
+
+        <Button
+            android:id="@+id/buttonKingsTofu"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="King's Tofu \n $13.95" />
+
+        <Button
+            android:id="@+id/buttonHappyFamilyDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Happy Family \n $13.95" />
+
+        <Button
+            android:id="@+id/buttonDragonPhoenixDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Dragon &amp; Phoenix \n $13.95" />
+
+        <Button
+            android:id="@+id/buttonSeafoodDelightDinner"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Seafood Delight \n $13.95" />
+
+        <Button
+            android:id="@+id/buttonOrangeBeefChefSpecial"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Orange Beef \n $12.95" />
+
+        <Button
+            android:id="@+id/buttonBlackPepperDicedChickenChefSpecial"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Black Pepper Diced Chicken \n $12.95" />
+
+        <Button
+            android:id="@+id/buttonPekingBeef"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Peking Style Beef \n $13.95" />
+
+    </LinearLayout>
+</ScrollView>

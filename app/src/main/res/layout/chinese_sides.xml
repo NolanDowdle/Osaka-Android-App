@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtestapp3"
+    tools:context=".ChineseSides">
+
+    <TextView
+        android:id="@+id/chineseSidesTextViewRice"
+        android:layout_width="254dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="#C1FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Please choose a side of rice:"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/whiteOrFriedRiceRadioGroupChineseSides"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chineseSidesTextViewRice"
+        android:gravity="center_horizontal"
+        android:background="#C1FFFFFF">
+
+        <RadioButton android:id="@+id/whiteRiceChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White Rice" />
+        <RadioButton android:id="@+id/friedRiceChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fried Rice" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/chineseSidesTextView"
+        android:layout_width="254dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="#C1FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Also, choose another side:"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whiteOrFriedRiceRadioGroupChineseSides">
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/sidesChineseSides"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chineseSidesTextView"
+        android:gravity="center_horizontal"
+        android:background="#C1FFFFFF">
+
+        <RadioButton android:id="@+id/eggRollChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egg Roll" />
+        <RadioButton android:id="@+id/springRollChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring Roll" />
+        <RadioButton android:id="@+id/clearSoupChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear Soup" />
+        <RadioButton android:id="@+id/misoSoupChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miso Soup" />
+        <RadioButton android:id="@+id/eggDropSoupChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egg Drop Soup" />
+        <RadioButton android:id="@+id/hotSourSoupChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hot &amp; Sour Soup" />
+        <RadioButton android:id="@+id/wontonSoupChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wonton Soup" />
+        <RadioButton android:id="@+id/houseSaladChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="House Salad" />
+        <RadioButton android:id="@+id/gingerSaladChineseSide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ginger Salad" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/doneButtonChineseSides"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sidesChineseSides" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

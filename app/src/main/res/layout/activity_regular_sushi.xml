@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegularSushi"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonCucumberRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Cucumber Roll \n $4.50" />
+
+        <Button
+            android:id="@+id/buttonVegetableSushiRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Vegetable Roll \n $4.50" />
+
+        <Button
+            android:id="@+id/buttonAvocadoSushiRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Avocado Roll \n $4.50" />
+
+        <Button
+            android:id="@+id/buttonACCRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="ACC Roll \n $4.50" />
+
+        <Button
+            android:id="@+id/buttonCaliforniaRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="California Roll \n $4.95" />
+
+        <Button
+            android:id="@+id/buttonPhillyRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Philly Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonSalmonRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Salmon Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonShrimpTempuraRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Shrimp Tempura Roll \n $5.95" />
+
+        <Button
+            android:id="@+id/buttonBostonRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Boston Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonSpecialCrabRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Special Crab Roll \n $5.95" />
+
+        <Button
+            android:id="@+id/buttonSpicyYellowtailRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Spicy Yellowtail Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonSalmonAvocadoRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Salmon Avocado Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonTunaAvocadoRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Tuna Avocado Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonSeaweedSaladSushiRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Seaweed Salad Roll \n $4.50" />
+
+        <Button
+            android:id="@+id/buttonSpicyTunaRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Spicy Tuna Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonSpicySalmonRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Spicy Salmon Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonTunaRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Tuna Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonEelAvocadoRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Eel Avocado Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonEelCucumberRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Eel Cucumber Roll \n $5.50" />
+
+        <Button
+            android:id="@+id/buttonCrunchyRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Crunchy Roll \n $5.95" />
+
+    </LinearLayout>
+
+</ScrollView>

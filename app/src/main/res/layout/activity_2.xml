@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtestapp3"
+    tools:context=".Activity2">
+
+    <Button
+        android:id="@+id/starterButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/starters_sides"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/glutenFreeButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/gluten_free_low_glycemic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/specialsButton" />
+
+    <Button
+        android:id="@+id/sushiButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/sushi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dinnerButton" />
+
+    <Button
+        android:id="@+id/dinnerButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/dinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lunchButton" />
+
+    <Button
+        android:id="@+id/specialsButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/specials"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sushiButton" />
+
+    <Button
+        android:id="@+id/lunchButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/lunch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/starterButton" />
+
+    <Button
+        android:id="@+id/checkoutButton"
+        android:layout_width="254dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/checkout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/glutenFreeButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SidesActivity"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/buttonMisoSoupSmall"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="15dp"
+        android:text="Small Miso Soup \n $2.75" />
+
+    <Button
+        android:id="@+id/buttonMisoSoupLarge"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="15dp"
+        android:text="Large miso Soup \n $4.25" />
+
+    <Button
+        android:id="@+id/buttonClearSoupSmall"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="15dp"
+        android:text="Small Clear Soup \n $2.50" />
+
+    <Button
+        android:id="@+id/buttonClearSoupLarge"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="15dp"
+        android:text="Large Clear Soup \n $3.50" />
+
+    <Button
+        android:id="@+id/buttonWontonSoupSmall"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="15dp"
+        android:text="Small Wonton Soup \n $2.50" />
+
+        <Button
+            android:id="@+id/buttonWontonSoupLarge"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Large Wonton Soup \n $3.50" />
+
+        <Button
+            android:id="@+id/buttonHotSourSoupSmall"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hot &amp; Sour Soup \n $2.50" />
+
+        <Button
+            android:id="@+id/buttonHotSourSoupLarge"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Large Hot &amp; Sour Soup \n $3.75" />
+
+        <Button
+            android:id="@+id/buttonEggDropSoupSmall"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Small Egg Drop Soup \n $2.50" />
+
+        <Button
+            android:id="@+id/buttonEggDropSoupLarge"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Large Egg Drop Soup \n $3.50" />
+
+        <Button
+            android:id="@+id/buttonVegetableSoup"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Vegetable Soup \n $4.95" />
+
+        <Button
+            android:id="@+id/buttonOsakaNoodleSoup"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Osaka Noodle Soup \n $8.95" />
+
+        <Button
+            android:id="@+id/buttonSeafoodSoup"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Seafood Soup \n $7.95" />
+
+        <Button
+            android:id="@+id/buttonUdonSoup"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Udon Soup \n $8.95" />
+
+        <Button
+            android:id="@+id/buttonHouseSalad"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="House Salad \n $2.50" />
+
+        <Button
+            android:id="@+id/buttonSeaweedSalad"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Seaweed Salad \n $3.95" />
+
+        <Button
+            android:id="@+id/buttonKaniSalad"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Kani Salad \n $4.25" />
+
+</LinearLayout>
+
+</ScrollView>

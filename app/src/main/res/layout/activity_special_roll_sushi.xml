@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecialRollSushi"
+    android:background="@drawable/backgroundtestapp3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonBooneSpecialRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Boone Special Roll \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonMangoTangoRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Mango Tango \n $10.50" />
+
+        <Button
+            android:id="@+id/buttonHotRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Hot Roll \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonDynamiteRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Dynamite Roll \n $8.95" />
+
+        <Button
+            android:id="@+id/buttonSuperCrunchRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Super Crunch Roll \n $7.95" />
+
+        <Button
+            android:id="@+id/buttonSpicyCrabRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Spicy Crab Roll \n $7.95" />
+
+        <Button
+            android:id="@+id/buttonDancingEelRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Dancing Eel Roll \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonCrispyTunaRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Crispy Tuna Roll \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonCrispyBagelRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Crispy Bagel Roll \n $8.95" />
+
+        <Button
+            android:id="@+id/buttonCrispySalmonRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Crispy Salmon Roll \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonTigerRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Tiger Roll \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonRainbowRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Rainbow Roll \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonGoodPointRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Good Point Roll \n $10.95" />
+
+        <Button
+            android:id="@+id/buttonJeffersonRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Jefferson Roll \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonFireCrackerRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Fire Cracker Roll \n $12.95" />
+
+        <Button
+            android:id="@+id/buttonRockShrimpRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Rock Shrimp Roll \n $9.25" />
+
+        <Button
+            android:id="@+id/buttonRockNRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Rock N Roll \n $8.95" />
+
+        <Button
+            android:id="@+id/buttonDragonRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Dragon Roll \n $11.25" />
+
+        <Button
+            android:id="@+id/buttonEmperorRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Emperor Roll \n $11.95" />
+
+        <Button
+            android:id="@+id/buttonSpicyShrimpRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Spicy Shrimp Roll \n $9.95" />
+
+        <Button
+            android:id="@+id/buttonSpiderRoll"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="15dp"
+            android:text="Spider Roll \n $12.50" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.osaka.osaka_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.osaka.osaka_app.LowGlycemic"></activity>
+        <activity android:name="com.osaka.osaka_app.GlutenGlycemicChoice" />
+        <activity android:name="com.osaka.osaka_app.RegularSushi" />
+        <activity android:name="com.osaka.osaka_app.DinnerComboSushi" />
+        <activity android:name="com.osaka.osaka_app.SpecialRollSushi" />
+        <activity android:name="com.osaka.osaka_app.NigiriSushi" />
+        <activity android:name="com.osaka.osaka_app.SidesActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity
+            android:name="com.osaka.osaka_app.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name="com.osaka.osaka_app.StartersSidesChoice" />
+        <activity android:name="com.osaka.osaka_app.CartView" />
+        <activity android:name="com.osaka.osaka_app.ChineseLunchActivity" />
+        <activity android:name="com.osaka.osaka_app.HibachiLunchActivity" />
+        <activity android:name="com.osaka.osaka_app.LoMeinDinnerActivity" />
+        <activity android:name="com.osaka.osaka_app.ChefSpecialtyDinnerActivity" />
+        <activity android:name="com.osaka.osaka_app.ChineseDinnerActivity" />
+        <activity android:name="com.osaka.osaka_app.HibachiDinnerActivity" />
+        <activity android:name="com.osaka.osaka_app.LunchActivity2" />
+        <activity android:name="com.osaka.osaka_app.GlutenFreeActivity" />
+        <activity android:name="com.osaka.osaka_app.SpecialsActivity" />
+        <activity android:name="com.osaka.osaka_app.SushiActivity" />
+        <activity android:name="com.osaka.osaka_app.CheckoutActivity" />
+        <activity android:name="com.osaka.osaka_app.DinnerActivity" />
+        <activity android:name="com.osaka.osaka_app.StartersActivity" />
+        <activity android:name="com.osaka.osaka_app.LocationActivity" />
+        <activity android:name="com.osaka.osaka_app.Activity2" />
+        <activity android:name="com.osaka.osaka_app.ChineseSides" />
+        <activity android:name="com.osaka.osaka_app.JapaneseSides" />
+        <activity android:name="com.osaka.osaka_app.SushiSides" />
+        <activity android:name="com.osaka.osaka_app.SixDollarSpecialSides" />
+        <activity android:name="com.osaka.osaka_app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>
